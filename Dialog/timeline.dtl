@@ -1,0 +1,6 @@
+[style name="VNstyle"]
+join Yuna right [animation="Slide From Left" z_index="1"]
+Yuna: hello
+How is your day?
+Yuna: Good
+Thats great to hear!

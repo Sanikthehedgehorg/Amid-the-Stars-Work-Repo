@@ -1,9 +1,9 @@
-res://Dialog/timeline.dtl
-res://Dialog/character.dch
-res://Dialog/Yuna.dch
-res://Dialog/main_style.tres
-res://Scenes/world_root.tscn
 res://Art and Assets/Textures/VNstyle.tres
-res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.gd
-res://Scripts/world_root.gd
-res://Art and Assets/Textures/5Portraits/custom_5_portraits.tscn
+res://Dialog/Yuna.dch
+res://Scenes/world_root.tscn
+res://Dialog/timeline.dtl
+res://Dialog/Player.dch
+res://Dialog/playerBoy.dch
+res://Dialog/playerGirl.dch
+res://Dialog/playerNB.dch
+res://Dialog/player.dch

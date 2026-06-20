@@ -1,6 +1,18 @@
 [style name="VNstyle"]
+[background arg="#a71b1bff" fade="0.0"]
 join Yuna right [animation="Slide From Left" z_index="1"]
 Yuna: hello
-How is your day?
+player: hello
+Yuna: what is your name?
+[text_input var="playerName"]
 Yuna: Good
-Thats great to hear!
+Yuna: What do you identify as?
+- He/Him
+	set {selectedGender} = "boy"
+- She/Her
+	set {selectedGender} = "girl"
+- They/Them
+	set {selectedGender} = "nb"
+# once player images are ready the potrait nodes should be updated to switch them accordingly
+join player leftmost [animation="Slide In Down"]
+player: I am here in the flesh now

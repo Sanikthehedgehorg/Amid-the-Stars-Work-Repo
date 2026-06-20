@@ -22,7 +22,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"Yuna": "res://Dialog/Yuna.dch"
+"Yuna": "res://Dialog/Yuna.dch",
+"player": "res://Dialog/player.dch"
 }
 directories/dtl_directory={
 "timeline": "res://Dialog/timeline.dtl"
@@ -31,7 +32,10 @@ layout/style_directory={
 "": "res://Art and Assets/Textures/VNstyle.tres",
 "VNstyle": "res://Art and Assets/Textures/VNstyle.tres"
 }
-variables={}
+variables={
+"playerName": "???",
+"selectedGender": "nb"
+}
 glossary/default_case_sensitive=true
 layout/style_list=["res://Art and Assets/Textures/VNstyle.tres"]
 layout/default_style="res://Art and Assets/Textures/VNstyle.tres"

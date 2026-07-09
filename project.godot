@@ -34,7 +34,7 @@ layout/style_directory={
 }
 variables={
 "playerName": "???",
-"selectedGender": "nb"
+"selectedGender": "male"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://Art and Assets/Textures/VNstyle.tres"]

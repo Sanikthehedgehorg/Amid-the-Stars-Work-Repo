@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://d4nor5uhcw1o8"]
+
+[ext_resource type="Script" uid="uid://bumxweumudflk" path="res://Scripts/player_potrait.gd" id="1_vaf0q"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3b8gu"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"neutral",
+"speed": 20.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"sad",
+"speed": 5.0
+}]
+
+[node name="PlayerPotrait" type="Node2D" unique_id=1550497900]
+script = ExtResource("1_vaf0q")
+
+[node name="female" type="AnimatedSprite2D" parent="." unique_id=412059729]
+sprite_frames = SubResource("SpriteFrames_3b8gu")
+animation = &"sad"
+
+[node name="male" type="AnimatedSprite2D" parent="." unique_id=194166934]
+sprite_frames = SubResource("SpriteFrames_3b8gu")
+animation = &"neutral"

@@ -1,9 +1,5 @@
 res://Art and Assets/Textures/VNstyle.tres
-res://Dialog/Yuna.dch
-res://Scenes/world_root.tscn
-res://Dialog/timeline.dtl
-res://Dialog/Player.dch
-res://Dialog/playerBoy.dch
-res://Dialog/playerGirl.dch
-res://Dialog/playerNB.dch
 res://Dialog/player.dch
+res://Scenes/playerPotrait.tscn
+res://Scripts/player_potrait.gd
+res://Dialog/Yuna.dch

@@ -1,5 +1,3 @@
-res://Art and Assets/Textures/VNstyle.tres
-res://Dialog/player.dch
 res://Scenes/playerPotrait.tscn
-res://Scripts/player_potrait.gd
-res://Dialog/Yuna.dch
+res://Art and Assets/Textures/VNstyle.tres
+res://README.md
